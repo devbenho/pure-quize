@@ -1,0 +1,81 @@
+.login-form {
+    text-align: center;
+}
+
+.login-form h2 {
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.login-form p.type-des {
+    color: #3E3E3E;
+}
+
+.account-selection {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 45px 0;
+}
+
+.account-selection .card {
+    background-color: #F4F4FE;
+    width: 440px;
+    border-radius: 10px;
+}
+
+.account-option {
+    cursor: pointer;
+}
+
+.account-card {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid transparent;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.account-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    /* border-radius: 50%; */
+}
+
+.teacher {
+    background-image: url('../imgs/as-teacher.png');
+    background-size: cover;
+}
+
+.student {
+    background-image: url('../imgs/as-student.png');
+    background-size: cover;
+}
+
+.account-card span {
+    display: block;
+    margin-top: 8px;
+}
+
+input[type="radio"]:checked+.account-card {
+    border-color: #6200ee;
+    /* Highlight color */
+    box-shadow: 0 0 10px #6200ee;
+}
+
+.login-form a {
+    text-decoration: none;
+    background-color: var(--main-color);
+    border-radius: 6px;
+    border: none;
+    padding: 8px 24px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 60px auto 30px;
+    width: 35%;
+}

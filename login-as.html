@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- to Render Files normally -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Font Awesome file for icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- login-as css file -->
+    <link rel="stylesheet" href="./css/login-as.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Romanesco&display=swap"
+        rel="stylesheet">
+    <title>Quize</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>Quize</h1>
+        </div>
+        <div class="login-form">
+            <h2>Login As</h2>
+            <p class="type-des">Choose your account type</p>
+
+            <form>
+                <div class="account-selection">
+                    <div class="card">
+                        <label class="account-option">
+                            <input type="radio" name="accountType" value="teacher" hidden />
+                            <div class="account-card">
+                                <div class="account-image teacher"></div>
+                                <span>Teacher</span>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="card">
+                        <label class="account-option">
+                            <input type="radio" name="accountType" value="student" hidden />
+                            <div class="account-card">
+                                <div class="account-image student"></div>
+                                <span>Student</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <a href="./login-page.html">Next</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

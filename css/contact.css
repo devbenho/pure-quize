@@ -1,0 +1,51 @@
+.content .contact-us {
+    text-align: center;
+}
+
+.content .contact-us h2 {
+    color: var(--main-color);
+}
+
+.content .contact-us p {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.content .contact-form {
+    background-color: #F4F4FE;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 6px 0px #ccc;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.content .contact-form input {
+    display: block;
+    width: 70%;
+    margin: 16px auto;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.content .contact-form input::placeholder {
+    color: black;
+}
+
+.content .contact-form input:focus {
+    outline: none;
+}
+
+.content .contact-form button {
+    background-color: var(--main-color);
+    border-radius: 6px;
+    border: none;
+    padding: 8px 24px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 60px auto 30px;
+    width: 50%;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- to Render Files normally -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Font Awesome file for icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- login-as css file -->
+    <link rel="stylesheet" href="./css/login-page.css">
+    <link rel="stylesheet" href="./css/register-page.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Romanesco&display=swap"
+        rel="stylesheet">
+    <title>Quize</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>Quize</h1>
+        </div>
+
+        <div class="login-form">
+            <div class="title">
+                <h2>Register</h2>
+                <p>Welcome to your family.</p>
+            </div>
+
+            <form class="contact-form">
+                <input class="input" type="text" placeholder="Full Name">
+                <input class="input" type="email" placeholder="Email">
+                <input class="input" type="password" placeholder="Password">
+                <input class="input" type="number" placeholder="Phone Number">
+
+                <div class="register-as">
+                    <p>Register as:</p>
+
+                    <div class="radio-inputs">
+                        <div class="radio-input">
+                            <input type="radio" id="teacher" name="accountType">
+                            <label for="teacher">Teacher</label>
+                        </div>
+                        <div class="radio-input">
+                            <input type="radio" id="student" name="accountType">
+                            <label for="student">Student</label>
+                        </div>
+                    </div>
+                </div>
+
+                <button>Register</button>
+                <p class="instead">Already have an account? <a href="./login-as.html">Login</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

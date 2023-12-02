@@ -1,0 +1,65 @@
+.main-container .content .main-title {
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+/* Start Start */
+.content .start {
+    display: flex;
+    /* gap: 240px; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .start h3 {
+    font-weight: 500;
+}
+
+.content .start p {
+    color: #3e3e3ec4;
+}
+
+.content .start img {
+    max-width: 269px;
+    max-height: 159px;
+    margin-right: 140px;
+}
+
+/* End Start */
+/* Start Courses */
+.content .courses {}
+
+.content .courses .card {
+    display: flex;
+    /* align-items: center; */
+    gap: 30px;
+    background-color: #F4F4FE;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    padding: 0 16px;
+    height: 145px;
+    transition: 0.3s;
+}
+
+.content .courses .card:hover {
+    background-color: #F6EBFB;
+}
+
+.content .courses .card img {
+    max-width: 270px;
+    max-height: 145px;
+}
+
+.content .courses .card .description {
+    margin-left: 46px;
+}
+
+.content .courses .card h3 {
+    margin-top: 36px;
+}
+
+.content .courses .card p {
+    color: #3e3e3ec4;
+}
+
+/* End Courses */

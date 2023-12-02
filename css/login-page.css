@@ -1,0 +1,53 @@
+.login-form {}
+
+.login-form h2 {
+    color: var(--main-color);
+    text-align: center;
+}
+
+.login-form .contact-form {
+    background-color: #F4F4FE;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 6px 0px #ccc;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.login-form .contact-form input.input {
+    display: block;
+    width: 60%;
+    margin: 16px auto;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.login-form .contact-form input::placeholder {
+    color: black;
+}
+
+.login-form .contact-form input:focus {
+    outline: none;
+}
+
+.login-form .contact-form button {
+    background-color: var(--main-color);
+    border-radius: 6px;
+    border: none;
+    padding: 8px 24px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 35px auto 0;
+    width: 60%;
+}
+
+.login-form .contact-form .instead {
+    text-align: center;
+}
+
+.login-form .contact-form p a {
+    color: var(--main-color);
+}

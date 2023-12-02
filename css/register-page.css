@@ -1,0 +1,22 @@
+.login-form .title {
+    margin: auto;
+    width: fit-content;
+}
+
+.login-form .title h2 {
+    text-align: left;
+}
+
+.login-form .title p {
+    color: #3E3E3E;
+}
+
+.register-as {
+    width: 60%;
+    margin: 25px auto 0;
+}
+
+.register-as .radio-inputs {
+    display: flex;
+    gap: 30px;
+}
